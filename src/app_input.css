@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+ *  GLOBAL
+ * */
+
+header nav a {
+  @apply text-white;
+}
+
+.social_ic li {
+  @apply px-3;
+}
+
+/* Search Section */
+
+.search .features svg {
+  display: inline-block;
+}
+
+/* Search Form */
+
+#search_form input {
+  
+  
+  
+  width: fill-available;
+
+
+
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Input Default Icon Style */
+
+#search_form input::-webkit-inner-spin-button,
+#search_form input::-webkit-calendar-picker-indicator {
+
+  @apply absolute top-1/2 -translate-y-1/2 left-0 text-2xl cursor-pointer text-gray-500;
+
+}
+
+/* Quick Choice */
+
+table.quick_choice td {
+  padding: 0.75rem;
+}

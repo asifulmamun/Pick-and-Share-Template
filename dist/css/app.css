@@ -842,8 +842,8 @@ header nav a {
 }
 
 .social_ic li {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 /* Search Section */
@@ -874,10 +874,8 @@ header nav a {
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   cursor: pointer;
-  padding-left: 0.875rem;
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
