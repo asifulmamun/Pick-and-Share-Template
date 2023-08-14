@@ -1,0 +1,22 @@
+{
+  "name": "pick-and-share",
+  "version": "1.0.0",
+  "description": "This is long drive car ride share",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asifulmamun/Pick-and-Share-Template.git"
+  },
+  "author": "Al Mamun - asifulmamun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asifulmamun/Pick-and-Share-Template/issues"
+  },
+  "homepage": "https://github.com/asifulmamun/Pick-and-Share-Template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
