@@ -7,13 +7,13 @@
  *  GLOBAL
  * */
 
-header nav a {
+/* header nav a {
   @apply text-white;
-}
+} */
 
-.social_ic li {
+/* .social_ic li {
   @apply px-3;
-}
+} */
 
 /* Search Section */
 
@@ -24,17 +24,10 @@ header nav a {
 /* Search Form */
 
 #search_form input {
-  
-  
-  
+
   width: fill-available;
+  @apply py-5 text-lg;
 
-
-
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 /* Input Default Icon Style */
@@ -42,12 +35,8 @@ header nav a {
 #search_form input::-webkit-inner-spin-button,
 #search_form input::-webkit-calendar-picker-indicator {
 
-  @apply absolute top-1/2 -translate-y-1/2 left-0 text-2xl cursor-pointer text-gray-500;
+  @apply absolute top-1/2 -translate-y-1/2 left-3 text-2xl cursor-pointer text-gray-500;
 
 }
 
 /* Quick Choice */
-
-table.quick_choice td {
-  padding: 0.75rem;
-}
